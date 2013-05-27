@@ -1011,21 +1011,21 @@ endfunction
 
 " ============================================================================
 " Key mappings {{{1
-nnoremap <buffer> <Leader>tv :call <SID>SelectTask()<CR>
-nnoremap <buffer> <Leader>tD :call <SID>TaskComplete()<CR>
-nnoremap <buffer> <Leader>ta :call <SID>ShowActiveTasksOnly()<CR>
-nnoremap <buffer> <Leader>tw :call <SID>ShowWatchedTasksOnly()<CR>
-nnoremap <buffer> <Leader>ty :call <SID>ShowTodayTasksOnly()<CR>
-nnoremap <buffer> <Leader>ts :call <SID>AddNextTimeToTask()<CR>
-nnoremap <buffer> <Leader>tO :call <SID>AddTaskAbove()<CR>
-nnoremap <buffer> <Leader>to :call <SID>AddTaskBelow()<CR>
-nnoremap <buffer> <Leader>tn :call <SID>AddNoteToTask()<CR>
-nnoremap <buffer> <Leader>tc :call <SID>AddChildTask()<CR>
-nnoremap <buffer> <Leader>tu :call <SID>MoveTaskUp()<CR>
-nnoremap <buffer> <Leader>td :call <SID>MoveTaskDown()<CR>
-nnoremap <buffer> <Leader>tS :call <SID>AddSnipToTask()<CR>
-nnoremap <buffer> <Leader>tj :call <SID>JumpToSnip()<CR>
-nnoremap <buffer> <Leader>tfi :call <SID>FindIncompleteTimestamps()<CR>:silent set hlsearch \| echo<CR>
+nnoremap <buffer> <localleader>v :call <SID>SelectTask()<CR>
+nnoremap <buffer> <localleader>D :call <SID>TaskComplete()<CR>
+nnoremap <buffer> <localleader>a :call <SID>ShowActiveTasksOnly()<CR>
+nnoremap <buffer> <localleader>w :call <SID>ShowWatchedTasksOnly()<CR>
+nnoremap <buffer> <localleader>y :call <SID>ShowTodayTasksOnly()<CR>
+nnoremap <buffer> <localleader>s :call <SID>AddNextTimeToTask()<CR>
+nnoremap <buffer> <localleader>O :call <SID>AddTaskAbove()<CR>
+nnoremap <buffer> <localleader>o :call <SID>AddTaskBelow()<CR>
+nnoremap <buffer> <localleader>n :call <SID>AddNoteToTask()<CR>
+nnoremap <buffer> <localleader>c :call <SID>AddChildTask()<CR>
+nnoremap <buffer> <localleader>u :call <SID>MoveTaskUp()<CR>
+nnoremap <buffer> <localleader>d :call <SID>MoveTaskDown()<CR>
+nnoremap <buffer> <localleader>S :call <SID>AddSnipToTask()<CR>
+nnoremap <buffer> <localleader>j :call <SID>JumpToSnip()<CR>
+nnoremap <buffer> <localleader>fi :call <SID>FindIncompleteTimestamps()<CR>:silent set hlsearch \| echo<CR>
 " I don't know if this is rude.
 nnoremap <buffer> <CR> :call OpenSnip()<CR>
 
